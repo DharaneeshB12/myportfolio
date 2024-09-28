@@ -12,7 +12,7 @@ function App() {
   <MyNavbar/>
   <About/>
   <MySkills/>
-  <Projects/>
+  {/* <Projects/> */}
   <Contacts/>
   <Footer/>
   <Copyrights/>

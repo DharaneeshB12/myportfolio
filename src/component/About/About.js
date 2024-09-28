@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import me from "../../assets/Nithish's image.png";
+import me from "../../assets/dharaneeshPhoto.png";
 
 export const About = () => {
 
@@ -8,7 +8,7 @@ export const About = () => {
     <>
       <div className="home-contents about" id="About">
         <div className="about-container">
-          <h2 className="my-name" data-aos="fade-right" data-aos-duration="3000">Nithish Kumar K</h2>
+          <h2 className="my-name" data-aos="fade-right" data-aos-duration="3000">Dharaneesh B</h2>
           <p className="designation" data-aos="fade-right" data-aos-duration="3000">
             <span>|</span> Web <span className="deve-color">Developer</span>
           </p>
@@ -18,11 +18,11 @@ export const About = () => {
           </p>
           <div className="media-links" data-aos="fade-up" data-aos-duration="3000">
             <a href="#Contact" className="contacts">Contact Me</a>
-            <a href="https://drive.google.com/file/d/1_c-WDoeNVKSVV1UhFL_nIx--5VaC8mao/view?usp=sharing" target="_blank" rel="noreferrer" className="resume">Resume</a>
+            <a href="https://drive.google.com/file/d/1OWrHifoWSb07wOz6ACI-QeX5RuEVDCoz/view?usp=sharing" target="_blank" rel="noreferrer" className="resume">Resume</a>
           </div>
         </div>
         <div className="imgdiv">
-          <img className="my-pic" src={me} alt="Nithish's img" />
+          <img className="my-pic" src={me} alt="dharaneeshPhoto.png" />
         </div>
       </div>
     </>

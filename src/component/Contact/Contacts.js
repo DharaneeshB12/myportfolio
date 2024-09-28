@@ -24,7 +24,7 @@ function Contacts() {
     validationSchema: formValidationSchema,
     onSubmit: (values,{resetForm}) => {
       if (formRef.current) {        
-      emailjs.sendForm("service_4f82dgm", "template_rsn2i1i", formRef.current, "CiRd3gQiKLeOGUUM7")
+      emailjs.sendForm("service_ss21q1h", "template_ksmyotq", formRef.current, "ZDzjPT68V-Vhk97JM")
       .then((result) => {
         console.log(result.text);
         alert("Email sent successfully!");

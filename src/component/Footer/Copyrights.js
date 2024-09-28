@@ -4,8 +4,8 @@ import "./footer.css";
 function Copyrights() {
   return (
     <div className='credits'>
-      <div className='copyright'>Copyrights Nithish Kumar &copy; 2024</div>
-      <div className='developed'>Designed & Developed by Nithish Kumar K</div>
+      <div className='copyright'>Copyrights Dharaneesh B &copy; 2024</div>
+      <div className='developed'>Designed & Developed by Dharaneesh B</div>
     </div>
   )
 }

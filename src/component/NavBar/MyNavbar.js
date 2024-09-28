@@ -26,11 +26,11 @@ function MyNavbar() {
           </li>
         </a>
 
-        <a href="#Projects" className="icon">
+        {/* <a href="#Projects" className="icon">
           <li className="navbar_li" onClick={() => setClicked(false)}>
             Projects
           </li>
-        </a>
+        </a> */}
 
         <a href="#Contact" className="icon">
           <li className="navbar_li" onClick={() => setClicked(false)}>
